@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{e8ce8de0-38f5-4f0b-8a66-6c32dd5e801c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL utilities">
+      <UniqueIdentifier>{4ff6a499-9726-4024-9125-cb3b3bce0fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{28dd15bc-57f1-4d1a-a7b0-1f36df3fc779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{14855d68-67ca-472e-b69c-68b7d60d4197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Level">
+      <UniqueIdentifier>{87dedd31-8ac6-4ac8-b26b-0b8776f8fde0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Enemy">
+      <UniqueIdentifier>{b7f169da-e2ec-4b30-9eac-0249e0f6e462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Game utils">
+      <UniqueIdentifier>{618281b3-cce2-49dc-b393-be4e2922becd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Buildings">
+      <UniqueIdentifier>{f6ec6f05-f7ea-4298-8c47-dd0531fb0198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\General">
+      <UniqueIdentifier>{d7bdce97-4f77-4d60-9937-b6b6d3357aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Buildings\Towers">
+      <UniqueIdentifier>{24c304e4-9060-4168-915a-885139968800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Buildings\RoadBlock">
+      <UniqueIdentifier>{6078f7dd-14df-4f46-a73f-5c437cb016cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\CannonBall">
+      <UniqueIdentifier>{1f22c7f1-95a0-4f3c-a2f7-0e489c6c1743}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="T:\OGLPack\include\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="T:\OGLPack\include\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="T:\OGLPack\include\imgui\imgui_impl_sdl_gl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="T:\OGLPack\include\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\BufferObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\gCamera.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GLconversions.hpp">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GLUtils.hpp">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Mesh_OGL3.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ObjParser_OGL3.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ProgramObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ShaderObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\TextureObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\VertexArrayObject.h">
+      <Filter>GL utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game Objects\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBufferObject.h">
+      <Filter>Game Objects\Game utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Game Objects\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="CheapTower.h">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="FastReloadTower.h">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongTower.h">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </ClInclude>
+    <ClInclude Include="Roadblock.h">
+      <Filter>Game Objects\Buildings\RoadBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="TilePosition.h">
+      <Filter>Game Objects\General</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonBall.h">
+      <Filter>Game Objects\CannonBall</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshObject.h">
+      <Filter>Game Objects\Game utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeDObject.h">
+      <Filter>Game Objects\Game utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Game Objects\Game utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Objects\General</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="T:\OGLPack\include\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="T:\OGLPack\include\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="T:\OGLPack\include\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="T:\OGLPack\include\imgui\imgui_impl_sdl_gl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\GLconversions.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\gCamera.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ObjParser_OGL3.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ProgramObject.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ShaderObject.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\VertexArrayObject.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Mesh_OGL3.cpp">
+      <Filter>GL utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game Objects\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBufferObject.cpp">
+      <Filter>Game Objects\Game utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Game Objects\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Objects\General</Filter>
+    </ClCompile>
+    <ClCompile Include="CheapTower.cpp">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="FastReloadTower.cpp">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongTower.cpp">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </ClCompile>
+    <ClCompile Include="Roadblock.cpp">
+      <Filter>Game Objects\Buildings\RoadBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePosition.cpp">
+      <Filter>Game Objects\General</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonBall.cpp">
+      <Filter>Game Objects\CannonBall</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <Filter>Game Objects\Game utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDObject.cpp">
+      <Filter>Game Objects\Game utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Game Objects\Game utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Includes\BufferObject.inl">
+      <Filter>GL utilities</Filter>
+    </None>
+    <None Include="Includes\ProgramObject.inl">
+      <Filter>GL utilities</Filter>
+    </None>
+    <None Include="Includes\TextureObject.inl">
+      <Filter>GL utilities</Filter>
+    </None>
+    <None Include="Includes\VertexArrayObject.inl">
+      <Filter>GL utilities</Filter>
+    </None>
+    <None Include="Cannonball.frag">
+      <Filter>Game Objects\CannonBall</Filter>
+    </None>
+    <None Include="Cannonball.vert">
+      <Filter>Game Objects\CannonBall</Filter>
+    </None>
+    <None Include="shaders\Enemy.frag">
+      <Filter>Game Objects\Enemy</Filter>
+    </None>
+    <None Include="shaders\Enemy.vert">
+      <Filter>Game Objects\Enemy</Filter>
+    </None>
+    <None Include="shaders\Tower.frag">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </None>
+    <None Include="shaders\Tower.vert">
+      <Filter>Game Objects\Buildings\Towers</Filter>
+    </None>
+    <None Include="shaders\Roadblock.frag">
+      <Filter>Game Objects\Buildings\RoadBlock</Filter>
+    </None>
+    <None Include="shaders\Roadblock.vert">
+      <Filter>Game Objects\Buildings\RoadBlock</Filter>
+    </None>
+    <None Include="shaders\Entrance.frag">
+      <Filter>Game Objects\Level</Filter>
+    </None>
+    <None Include="shaders\Entrance.vert">
+      <Filter>Game Objects\Level</Filter>
+    </None>
+    <None Include="shaders\Exit.frag">
+      <Filter>Game Objects\Level</Filter>
+    </None>
+    <None Include="shaders\Exit.vert">
+      <Filter>Game Objects\Level</Filter>
+    </None>
+    <None Include="shaders\Level.frag">
+      <Filter>Game Objects\Level</Filter>
+    </None>
+    <None Include="shaders\Level.vert">
+      <Filter>Game Objects\Level</Filter>
+    </None>
+    <None Include="shaders\postprocess.frag">
+      <Filter>Game Objects\Game utils</Filter>
+    </None>
+    <None Include="shaders\postprocess.vert">
+      <Filter>Game Objects\Game utils</Filter>
+    </None>
+    <None Include="shaders\Skybox.frag">
+      <Filter>Game Objects\Game utils</Filter>
+    </None>
+    <None Include="shaders\Skybox.vert">
+      <Filter>Game Objects\Game utils</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="01_OGLBase.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
